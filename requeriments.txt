@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+httpx
+python-dotenv
+pydantic
+pandas
+loguru
+authlib
+pytest
+httpx[test]
+jinja2
