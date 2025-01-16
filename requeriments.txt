@@ -1,4 +1,3 @@
-Bibliotecas que serão usadas
 fastapi
 uvicorn
 httpx

@@ -1,30 +1,58 @@
-# Importando as dependências necessárias para a aplicação FastAPI
 from fastapi import FastAPI
-from app.services.ads_service import router as ads_router  # Importando o roteador de anúncios
-from app.api.powerbi import powerbi_router  # Importando o roteador de integração com Power BI
-from loguru import logger  # Importando o loguru para registros de log
-from app.api import ads  # Importando o módulo de anúncios (não está sendo usado diretamente no código, mas pode ser relevante para a estrutura)
-import logging  # Importando o módulo de logging padrão do Python
-from config.settings import Settings  # Importando as configurações da aplicação (não utilizado diretamente aqui, mas pode ser importante para configurar o ambiente)
+from fastapi.openapi.utils import get_openapi
+from app.api.ads import router as ads_router
+from loguru import logger
+from pathlib import Path
+from fastapi.responses import HTMLResponse
 
 # Configuração inicial do FastAPI
 app = FastAPI(
-    title="Meta Ads API",  # Define o título da API
-    description="API para integração de dados do Meta Ads com Power BI",  # Descrição do propósito da API
-    version="1.0.0"  # Versão da API
+    title="Meta Ads API",
+    description="""
+     API de Integração Meta Ads 
+    
+    Esta API foi desenvolvida para fornecer uma integração fácil e eficiente com o Meta Ads.
+    
+    Funcionalidades principais:
+    - Obtenção de dados de campanhas do Meta Ads, como impressões, cliques e gastos.
+    - Validação e manipulação de informações para otimização de campanhas.
+    
+    Utilização:
+    - Navegue pelos endpoints disponíveis abaixo e explore as funcionalidades interativas.
+    """,
+    version="1.0.0",
+    contact={
+        "name": "Equipe Meta Ads API",
+        "email": "suporte@metaadsapi.com",
+    },
+    docs_url="/docs",
+    redoc_url="/redoc",
 )
 
-# Configuração de logs
-logging.basicConfig(level=logging.INFO)  # Configura o nível de log para INFO
-logger = logging.getLogger(__name__)  # Cria um logger com o nome do módulo atual (útil para rastrear logs em diferentes módulos)
+# Criando diretório para logs, se não existir
+log_dir = Path("logs")
+log_dir.mkdir(parents=True, exist_ok=True)
+
+# Configuração de logs usando loguru
+log_file_path = log_dir / "logfile.log"
+logger.add(log_file_path, rotation="1 MB", retention="10 days", level="INFO")
+logger.info("API inicializada com sucesso.")
 
 # Adicionando roteadores
-app.include_router(ads_router, prefix="/ads", tags=["Meta Ads"])  # Inclui o roteador de anúncios com prefixo /ads e tags para facilitar a documentação
-#app.include_router(powerbi_router, prefix="/powerbi", tags=["Power BI"])  # Inclui o roteador de Power BI com prefixo /powerbi e tags para a documentação
+try:
+    app.include_router(ads_router, prefix="/ads", tags=["Meta Ads"])
+    logger.info("Roteador de anúncios incluído com sucesso.")
+except Exception as e:
+    logger.error(f"Erro ao incluir roteador de anúncios: {e}")
 
 # Endpoint raiz
-@app.get("/")  # Define o endpoint raiz para a API
-async def root():
-    # Retorna uma mensagem simples indicando que a API está funcionando
-    return {"message": "API de integração Meta Ads e Power BI funcionando!"}
+@app.get("/", response_class=HTMLResponse)
+async def home():
+    with open("static/index.html", "r", encoding="utf-8") as file:
+        html_content = file.read()
+    return HTMLResponse(content=html_content)
 
+# Endpoint de status
+@app.get("/status")
+async def status():
+    return {"status": "ok", "message": "API está operacional."}

@@ -1,58 +1,56 @@
-"""
-Serviço responsável por interagir com a API do Meta Ads.
-- Funções principais:
-  - Obter unidades da Ser Educacional.
-  - Processar dados recebidos.
-"""
-# Importando as bibliotecas necessárias para a interação com a API e processamento de dados
-import httpx  # Biblioteca para fazer chamadas HTTP assíncronas
-import pandas as pd  # Biblioteca para manipulação de dados (não usada diretamente neste código, mas possivelmente usada em outros contextos do serviço)
-from loguru import logger  # Biblioteca para registro de logs (não utilizada diretamente aqui, mas útil para depuração e monitoramento)
-from config.settings import Settings  # Importa as configurações da aplicação, como o token de acesso
-from app.models.ads_model import AdsData  # Importa o modelo de dados para representar as informações de anúncios
-from fastapi import HTTPException  # Importa a classe HTTPException para lançar erros HTTP personalizados
-import requests
+import httpx
+from app.models.ads_model import AdsData
+from fastapi import HTTPException
 
-# Definindo a classe AdsService, que contém métodos para interagir com a API de anúncios
-class AdsService:
-    # Método estático para simular a obtenção de dados de anúncios
+class AdsService():
     @staticmethod
-    def fetch_ads_data(campaign_id: str):
-        try:
-            # Verifica se o ID da campanha foi fornecido
-            if not campaign_id:
-                raise ValueError("ID da campanha é obrigatório.")  # Lança um erro se o ID da campanha for inválido
-            
-            # Simulação de resposta com dados de campanha
-            return {
-                "campaign_id": campaign_id,
-                "campaign_name": "Campanha de Exemplo",
-                "impressions": 2000
-            }
-        except ValueError as ve:
-            # Captura erros de valor (como quando o ID da campanha está faltando) e retorna uma resposta de erro 400 (Bad Request)
-            raise HTTPException(status_code=400, detail=str(ve))
-        except Exception as e:
-            # Captura quaisquer outros erros e retorna uma resposta de erro 500 (Erro interno do servidor)
-            raise HTTPException(status_code=500, detail="Erro interno no serviço de anúncios.")
+    def fetch_ads_data(campaign_id: str) -> AdsData:
+        """
+        Simula a obtenção de dados de anúncios.
+        Args:
+            campaign_id (str): ID da campanha.
+        Returns:
+            AdsData: Dados simulados de uma campanha.
+        """
+        if not campaign_id:
+            raise ValueError("ID da campanha é obrigatório.")
+        return AdsData(
+            campaign_id=campaign_id,
+            impressions=2000,
+            clicks=150,
+            spend=100.0
+        )
 
-# Função assíncrona para obter dados reais da API do Meta Ads
 async def get_meta_ads_data(campaign_id: str, access_token: str) -> AdsData:
-    # Define a URL da API do Meta Ads para obter os dados de uma campanha específica
-    url = f"https://graph.facebook.com/v21.0/act_341867950349467/insights?fields=impressions,clicks,spend,reach&access_token=EAARvDNZAUYcEBO2vBXbb0LZA2Ygkl933soEOBklknzYB4XKgPIizNzUbVkTJAXOuSMpndPSSwhwN4UmhOH8Dy7KNsuSGWnMMNfcnPyZCWwZB1l0SmSdEvyx1G3hKZBY84zUUaqI93ZC7flNdffuOF8RZCNBrlTPYgluX9iRVHgm7qmFZBcv0MaUZAeo4hdFZASei0ArFZAhpVZA8cgp1IK9nv9gQ1hfFoQZDZD"
-    
-    # Define os parâmetros da requisição, incluindo o token de acesso e os campos solicitados (impressões, cliques, e gastos)
+    """
+    Busca dados reais da API do Meta Ads.
+    Args:
+        campaign_id (str): ID da campanha.
+        access_token (str): Token de acesso à API do Meta Ads.
+    Returns:
+        AdsData: Dados da campanha no formato do modelo.
+    """
+    # Define a URL da API do Meta Ads
+    url = "https://graph.facebook.com/v21.0/act_341867950349467/insights"
+
+    # Define os parâmetros da requisição
     params = {
-        "access_token": access_token,  # O token de acesso da aplicação para autenticação
-        "fields": "impressions,clicks,spend"  # Os campos específicos que queremos retornar da API
+        "access_token": access_token,
+        "fields": "impressions,clicks,spend",
+        "filtering": f"[{{'field': 'campaign_id', 'operator': 'EQUAL', 'value': '{campaign_id}'}}]"
     }
-    
-    # Usando o client assíncrono httpx para fazer a requisição
+
+    # Faz a requisição usando httpx
     async with httpx.AsyncClient() as client:
-        response = await client.get(url, params=params)  # Envia a requisição GET à API
-        if response.status_code != 200:  # Verifica se a resposta não foi bem-sucedida (status diferente de 200)
-            # Lança um erro se a resposta da API não for bem-sucedida
-            raise Exception(f"Erro ao buscar dados do Meta Ads: {response.text}")
-        
-        # Retorna os dados da resposta da API, que estão em formato JSON
-        return response.json()
+        response = await client.get(url, params=params)
+        if response.status_code != 200:
+            raise HTTPException(status_code=response.status_code, detail=f"Erro ao buscar dados: {response.text}")
+
+        # Converte os dados da resposta para o modelo AdsData
+        response_data = response.json()
+        return AdsData(
+            campaign_id=campaign_id,
+            impressions=response_data.get("impressions", 0),
+            clicks=response_data.get("clicks", 0),
+            spend=response_data.get("spend", 0.0)
+        )

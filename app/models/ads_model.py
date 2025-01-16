@@ -1,10 +1,8 @@
-from pydantic import BaseModel  # Importa a classe BaseModel do Pydantic para validação de modelos de dados
-from typing import List  # Importa o tipo List para indicar listas de itens, caso necessário
+from pydantic import BaseModel, Field  # Field permite definir validações extras
+from typing import List
 
-# Definição do modelo de dados AdsData
 class AdsData(BaseModel):
-    # Define as propriedades do modelo de dados de anúncios
-    campaign_id: str  # ID da campanha (string)
-    impressions: int  # Número de impressões (inteiro)
-    clicks: int  # Número de cliques (inteiro)
-    spend: float  # Gasto com a campanha (número decimal)
+    campaign_id: str  # ID da campanha
+    impressions: int = Field(..., ge=0, description="Número de impressões deve ser maior ou igual a zero")  # ge: greater or equal
+    clicks: int = Field(..., ge=0, description="Número de cliques deve ser maior ou igual a zero")
+    spend: float = Field(..., ge=0, description="O gasto deve ser maior ou igual a zero")

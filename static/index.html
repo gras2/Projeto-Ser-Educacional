@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Ads API</title>
+    <style>
+        /* Estilo Geral */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #00264d;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        section {
+            margin: 2rem 0;
+            padding: 1rem;
+        }
+
+        section h2 {
+            color: #00264d;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 1rem 0.5rem;
+            padding: 0.7rem 1.5rem;
+            color: white;
+            background-color: #00509e;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: #003f7d;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding: 1rem 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #00509e;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .diagram {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0;
+        }
+
+        .diagram img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const message = document.getElementById("dynamic-message");
+            let messages = [
+                "Conecte suas campanhas com facilidade.",
+                "Otimize seus anúncios com dados em tempo real.",
+                "Simplifique a análise de métricas publicitárias."
+            ];
+            let index = 0;
+            setInterval(() => {
+                message.textContent = messages[index];
+                index = (index + 1) % messages.length;
+            }, 3000);
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Meta Ads API</h1>
+        <p id="dynamic-message">Carregando...</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre a API</h2>
+            <p>
+                A Meta Ads API fornece acesso aos dados de campanhas publicitárias, 
+                incluindo métricas como impressões, cliques e gastos. Ideal para otimizar
+                seus esforços publicitários.
+            </p>
+        </section>
+        <section>
+            <h2>Documentação</h2>
+            <p>Acesse os recursos da API e explore os endpoints disponíveis:</p>
+            <a href="/docs" class="button">Swagger UI</a>
+            <a href="/redoc" class="button">ReDoc</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Meta Ads API. Desenvolvido pela A.C.E. Consultoria.</p>
+    </footer>
+</body>
+</html>
