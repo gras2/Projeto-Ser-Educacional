@@ -56,3 +56,300 @@
 2025-01-16 18:54:34.413 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
 2025-01-20 16:29:19.101 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
 2025-01-20 16:29:19.102 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:05:51.498 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:05:51.500 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:05:51.729 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:05:51.730 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:05:51.865 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:05:51.866 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:28:49.255 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:28:49.256 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:28:49.352 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:28:49.354 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:28:49.457 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:28:49.458 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:29:26.244 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:29:26.245 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:29:26.248 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:29:26.250 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 13:29:26.515 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 13:29:26.516 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:25:09.627 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:25:09.628 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:25:09.976 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:25:09.977 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:25:10.058 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:25:10.059 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:31:47.591 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:31:47.592 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:31:47.752 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:31:47.753 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:31:47.910 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:31:47.913 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:32:30.271 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:32:30.272 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:32:30.455 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:32:30.456 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-21 14:32:30.647 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-21 14:32:30.648 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:04:57.356 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-22 23:04:57.357 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:04:57.362 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-22 23:04:57.363 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:04:57.510 | INFO     | app.main:<module>:39 - API inicializada com sucesso.
+2025-01-22 23:04:57.511 | INFO     | app.main:<module>:44 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:04:59.154 | INFO     | app.main:<module>:40 - API inicializada com sucesso.
+2025-01-22 23:04:59.155 | INFO     | app.main:<module>:64 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:04:59.157 | ERROR    | app.main:startup_event:58 - Erro ao carregar os dados: [Errno 2] No such file or directory: 'path/to/insights2224.json'
+2025-01-22 23:04:59.566 | INFO     | app.main:<module>:40 - API inicializada com sucesso.
+2025-01-22 23:04:59.567 | INFO     | app.main:<module>:64 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:04:59.569 | ERROR    | app.main:startup_event:58 - Erro ao carregar os dados: [Errno 2] No such file or directory: 'path/to/insights2224.json'
+2025-01-22 23:04:59.614 | INFO     | app.main:<module>:40 - API inicializada com sucesso.
+2025-01-22 23:04:59.616 | INFO     | app.main:<module>:64 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:04:59.617 | ERROR    | app.main:startup_event:58 - Erro ao carregar os dados: [Errno 2] No such file or directory: 'path/to/insights2224.json'
+2025-01-22 23:36:15.799 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:36:15.802 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:36:15.803 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'path/to/insights2224.json'
+2025-01-22 23:36:16.081 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:36:16.083 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:36:16.085 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'path/to/insights2224.json'
+2025-01-22 23:36:16.119 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:36:16.120 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:36:16.122 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'path/to/insights2224.json'
+2025-01-22 23:36:16.155 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:36:16.158 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:36:16.159 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'path/to/insights2224.json'
+2025-01-22 23:39:02.154 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:39:02.157 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:39:02.158 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'app/projeto_fastapi/app/insights2224.json'
+2025-01-22 23:39:02.274 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:39:02.276 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:39:02.278 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'app/projeto_fastapi/app/insights2224.json'
+2025-01-22 23:39:02.467 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:39:02.470 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:39:02.471 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'app/projeto_fastapi/app/insights2224.json'
+2025-01-22 23:39:02.490 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:39:02.492 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:39:02.494 | ERROR    | app.main:startup_event:62 - Erro ao carregar os dados: Erro ao carregar o arquivo JSON: [Errno 2] No such file or directory: 'app/projeto_fastapi/app/insights2224.json'
+2025-01-22 23:41:40.217 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:41:40.220 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:41:40.227 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:41:40.228 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:41:40.230 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:41:40.230 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:41:40.268 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-22 23:41:40.271 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-22 23:41:40.302 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-22 23:41:40.315 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-22 23:41:40.316 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-22 23:41:40.352 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:29.649 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:29.650 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:29.652 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:29.652 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:29.684 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:29.688 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:29.736 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:29.744 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:29.778 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:29.841 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:29.843 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:29.905 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:31.850 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:31.853 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:31.883 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:31.887 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:31.903 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:31.905 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:31.952 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:31.998 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:32.008 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 00:22:32.049 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 00:22:32.052 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 00:22:32.132 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:24.882 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:24.886 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:24.978 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:25.323 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:25.326 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:25.329 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:25.333 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:25.399 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:25.400 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:25.402 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:25.407 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:25.482 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:54.515 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:54.518 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:54.613 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:54.740 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:54.742 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:54.755 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:54.758 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:54.805 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:26:54.808 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:26:54.827 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:54.848 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:26:54.881 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:30:27.954 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:30:27.956 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:30:28.037 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:30:28.205 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:30:28.208 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:30:28.217 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:30:28.220 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:30:28.302 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:30:28.313 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:30:28.359 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:30:28.361 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:30:28.426 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:31:53.583 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:31:53.585 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:31:53.648 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:31:53.814 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:31:53.817 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:31:53.888 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:31:54.097 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:31:54.099 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:31:54.155 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:31:54.157 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:31:54.161 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:31:54.218 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:33:57.652 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:33:57.655 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:33:57.692 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:33:57.695 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:33:57.739 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:33:57.784 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:33:57.788 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:33:57.791 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:33:57.881 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:33:58.026 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:33:58.028 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:33:58.089 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:39:46.645 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:39:46.648 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:39:46.707 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:39:47.041 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:39:47.045 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:39:47.104 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:45:53.147 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:45:53.150 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:45:53.220 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:45:53.220 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:45:53.223 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:45:53.304 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:48:58.961 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:48:58.963 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:48:59.003 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:48:59.005 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:48:59.033 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:48:59.067 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:49:36.567 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:49:36.570 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:49:36.584 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:49:36.587 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:49:36.636 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:49:36.648 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:50:37.295 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:50:37.298 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:50:37.343 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:50:37.346 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:50:37.379 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:50:37.412 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:50:51.922 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:50:51.925 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:50:51.933 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:50:51.935 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:50:51.988 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:50:52.008 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:52:07.444 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:52:07.446 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:52:07.504 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:52:07.875 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:52:07.878 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:52:07.940 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:54:28.643 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:54:28.646 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:54:28.646 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:54:28.648 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:54:28.711 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:54:28.712 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:56:05.564 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:56:05.567 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:56:05.569 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:56:05.571 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:56:05.658 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:56:05.665 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:56:27.177 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:56:27.180 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:56:27.253 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 09:58:49.665 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 09:58:49.668 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 09:58:49.728 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:12:12.837 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:12:12.839 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:12:12.897 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:13:19.570 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:13:19.572 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:13:19.638 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:17:39.869 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:17:39.872 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:17:39.936 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:18:51.085 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:18:51.087 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:18:51.155 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:19:08.928 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:19:08.930 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:19:09.007 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:22:13.691 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:22:13.694 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:22:13.751 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:22:37.691 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:22:37.694 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:22:37.753 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:22:48.998 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:22:49.026 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:22:49.087 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:25:19.820 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:25:19.824 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:25:19.896 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:25:25.273 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:25:25.275 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:25:25.336 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:26:07.795 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:26:07.798 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:26:07.858 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:28:38.069 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:28:38.072 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:28:38.131 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:29:59.943 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:29:59.946 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:30:00.007 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:32:31.307 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:32:31.310 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:32:31.371 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:32:50.234 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:32:50.236 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:32:50.299 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:33:37.940 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:33:37.942 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:33:38.003 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:35:20.339 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:35:20.341 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:35:20.403 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:36:16.068 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:36:16.071 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:36:16.131 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:36:35.358 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:36:35.360 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:36:35.420 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:37:12.697 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:37:12.700 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:37:12.757 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 10:39:53.383 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 10:39:53.388 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 10:39:53.468 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267
+2025-01-23 12:28:49.897 | INFO     | app.main:<module>:49 - API inicializada com sucesso.
+2025-01-23 12:28:49.899 | INFO     | app.main:<module>:67 - Roteador de anúncios incluído com sucesso.
+2025-01-23 12:28:49.960 | INFO     | app.main:startup_event:60 - Dados carregados com sucesso! Total de registros: 267

@@ -101,6 +101,28 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
@@ -116,6 +138,81 @@
                 index = (index + 1) % messages.length;
             }, 3000);
         });
+
+        const BASE_URL = "http://127.0.0.1:8000";
+
+        async function filterData() {
+            const adsetId = document.getElementById("adset_id").value;
+            const adName = document.getElementById("ad_name").value;
+            const dateStart = document.getElementById("date_start").value;
+            const dateStop = document.getElementById("date_stop").value;
+
+            const url = `${BASE_URL}/ads/filter?adset_id=${adsetId}&ad_name=${adName}&date_start=${dateStart}&date_stop=${dateStop}`;
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                if (data.success) {
+                    displayData(data.data);
+                } else {
+                    alert("Erro ao filtrar dados: " + data.detail);
+                }
+            } catch (error) {
+                alert("Erro na requisição: " + error.message);
+            }
+        }
+
+        async function analyzeData() {
+            try {
+                const response = await fetch(`${BASE_URL}/ads/analyze`);
+                const data = await response.json();
+                if (data.success) {
+                    displayAnalysis(data.analysis);
+                } else {
+                    alert("Erro ao analisar dados: " + data.detail);
+                }
+            } catch (error) {
+                alert("Erro na requisição: " + error.message);
+            }
+        }
+
+        async function visualizeData() {
+            try {
+                const response = await fetch(`${BASE_URL}/ads/visualize`);
+                const data = await response.json();
+                if (data.success) {
+                    document.getElementById("chart").src = data.chart_path;
+                } else {
+                    alert("Erro ao gerar visualização: " + data.detail);
+                }
+            } catch (error) {
+                alert("Erro na requisição: " + error.message);
+            }
+        }
+
+        function displayData(data) {
+            const table = document.getElementById("results");
+            table.innerHTML = "<tr><th>Adset ID</th><th>Ad Name</th><th>Date Start</th><th>Date Stop</th><th>Impressions</th><th>Spend</th></tr>";
+            data.forEach(item => {
+                const row = `<tr>
+                    <td>${item.adset_id}</td>
+                    <td>${item.ad_name}</td>
+                    <td>${item.date_start}</td>
+                    <td>${item.date_stop}</td>
+                    <td>${item.impressions}</td>
+                    <td>${item.spend}</td>
+                </tr>`;
+                table.innerHTML += row;
+            });
+        }
+
+        function displayAnalysis(analysis) {
+            document.getElementById("analysis").innerHTML = `
+                <p>Total Impressions: ${analysis.total_impressions}</p>
+                <p>Total Spend: ${analysis.total_spend.toFixed(2)}</p>
+                <p>Average Spend per Impression: ${analysis.average_spend_per_impression.toFixed(2)}</p>
+            `;
+        }
     </script>
 </head>
 <body>
@@ -126,15 +223,34 @@
     <main>
         <section>
             <h2>Sobre a API</h2>
-            <p>
-                A Meta Ads API fornece acesso aos dados de campanhas publicitárias, 
-                incluindo métricas como impressões, cliques e gastos. Ideal para otimizar
-                seus esforços publicitários.
-            </p>
+            <p>A Meta Ads API fornece acesso aos dados de campanhas publicitárias, incluindo métricas como impressões, cliques e gastos. Ideal para otimizar seus esforços publicitários.</p>
+        </section>
+        <section>
+            <h2>Filtrar Dados</h2>
+            <label for="adset_id">Adset ID:</label>
+            <input type="text" id="adset_id" placeholder="Insira o Adset ID">
+            <label for="ad_name">Nome do Anúncio:</label>
+            <input type="text" id="ad_name" placeholder="Insira o Nome do Anúncio">
+            <label for="date_start">Data Início:</label>
+            <input type="date" id="date_start">
+            <label for="date_stop">Data Fim:</label>
+            <input type="date" id="date_stop">
+            <button onclick="filterData()">Filtrar</button>
+            <h3>Resultados:</h3>
+            <table id="results"></table>
+        </section>
+        <section>
+            <h2>Analisar Dados</h2>
+            <button onclick="analyzeData()">Analisar</button>
+            <div id="analysis"></div>
+        </section>
+        <section>
+            <h2>Visualizar Dados</h2>
+            <button onclick="visualizeData()">Gerar Gráfico</button>
+            <img id="chart" alt="Gráfico será exibido aqui">
         </section>
         <section>
             <h2>Documentação</h2>
-            <p>Acesse os recursos da API e explore os endpoints disponíveis:</p>
             <a href="/docs" class="button">Swagger UI</a>
             <a href="/redoc" class="button">ReDoc</a>
         </section>
